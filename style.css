@@ -1,0 +1,9 @@
+body {
+ background-color: azure;
+font-family: "Harlow Solid Italic";
+}
+.btnTable {
+    width: 120px;
+    height: 25px;
+    font-size: 14px;
+}
