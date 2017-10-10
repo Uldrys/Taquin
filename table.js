@@ -42,8 +42,13 @@ function load4x4() {
     div.id = id;
     if(id < 16) {
       div.innerHTML = id;
+      div.addEventListener("click", caseclick(id));
     }
     div.className = "case";
     document.getElementById("mainTable").appendChild(div);
   }
+}
+
+function caseclick(id) {
+  alert(id);
 }
